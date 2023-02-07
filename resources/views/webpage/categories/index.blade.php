@@ -17,7 +17,7 @@
         </div>
 
     </div>
-    <div class="container b_margin">
+    <div class="container">
         <!-- <div class="container">-->
         <div class="col-md-12  gt-hidden ">
             <div class="box gt-box">

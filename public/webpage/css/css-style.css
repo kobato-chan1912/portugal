@@ -846,7 +846,7 @@ body {
           column-count: 2;
 }
  .banner, .category .banner{
-	height:300px;
+	height:100px;
 	background:none;
 }
  .banner .site_title, .category .banner .site_title{

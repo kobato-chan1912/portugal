@@ -25,7 +25,7 @@
         </div>
 
     </div>
-    <div class="container b_margin" style="margin-top: 0;">
+    <div class="container" style="margin-top: 0;">
         <!-- <div class="container">-->
         <div class="col-md-12 vtn-home">
             <div class="box gt-box">

@@ -17,7 +17,7 @@
         </div>
 
     </div>
-    <div class="container b_margin">
+    <div class="container">
         <!-- <div class="container">-->
 
 

@@ -52,7 +52,7 @@
           media="all">
     <style type="text/css" id="wp-custom-css">
         .navbar-nav li a {
-            color: #000000 !important;
+            color: #ffffff !important;
         }
 
         .navbar-default .navbar-nav>.active>a {

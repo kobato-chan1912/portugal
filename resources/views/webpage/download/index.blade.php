@@ -16,7 +16,7 @@
         @include("layouts.search_box")
 
     </div>
-    <div class="container b_margin">
+    <div class="container">
         <!-- <div class="container">-->
         <div class="col-md-12 ">
             <div class="box gt-box">

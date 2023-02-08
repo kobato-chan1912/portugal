@@ -4,7 +4,7 @@
 @include('webpage.layouts.head', [
     'title' => env("WEB_NAME"). ' 2023 - Baixar para telefone',
     'og_des' =>
-        '"Baixe novos e melhores toques gratuitamente para 2023. Muitas categorias de toques, como toques engraçados, toques de iPhone, toques de WhatsApp...',
+        'Baixe novos e melhores toques gratuitamente para 2023. Muitas categorias de toques, como toques engraçados, toques de iPhone, toques de WhatsApp, Xiaomi...',
     'og_title' => 'Toques para celular grátis 2023 - Baixar para telefone',
 ])
 
@@ -325,6 +325,8 @@
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 
 @include('webpage.layouts.footer')
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-63e379abd69ec2ff"></script>
 
 </body>
 

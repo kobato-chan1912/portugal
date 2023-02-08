@@ -10,56 +10,56 @@
 @endphp
 <section class="footer">
     <div class="container cat">
-        <div class="category-list-footer">
-            <div class="footer-header">
-                <h2 class="footer-title"><i class="fa fa-music" aria-hidden="true"></i>   FAQ </h2>
-            </div>
-            <div id="accordion">
-                    <div class="card">
-                        <div class="card-header" id="headingOne">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Collapsible Group Item #1
-                                </button>
-                            </h5>
-                        </div>
+{{--        <div class="category-list-footer">--}}
+{{--            <div class="footer-header">--}}
+{{--                <h2 class="footer-title"><i class="fa fa-music" aria-hidden="true"></i>   FAQ </h2>--}}
+{{--            </div>--}}
+{{--            <div id="accordion">--}}
+{{--                    <div class="card">--}}
+{{--                        <div class="card-header" id="headingOne">--}}
+{{--                            <h5 class="mb-0">--}}
+{{--                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">--}}
+{{--                                    Collapsible Group Item #1--}}
+{{--                                </button>--}}
+{{--                            </h5>--}}
+{{--                        </div>--}}
 
-                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingTwo">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                    Collapsible Group Item #2
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card-header" id="headingThree">
-                            <h5 class="mb-0">
-                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Collapsible Group Item #3
-                                </button>
-                            </h5>
-                        </div>
-                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-                            <div class="card-body">
-                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </div>
+{{--                        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">--}}
+{{--                            <div class="card-body">--}}
+{{--                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="card">--}}
+{{--                        <div class="card-header" id="headingTwo">--}}
+{{--                            <h5 class="mb-0">--}}
+{{--                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">--}}
+{{--                                    Collapsible Group Item #2--}}
+{{--                                </button>--}}
+{{--                            </h5>--}}
+{{--                        </div>--}}
+{{--                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">--}}
+{{--                            <div class="card-body">--}}
+{{--                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="card">--}}
+{{--                        <div class="card-header" id="headingThree">--}}
+{{--                            <h5 class="mb-0">--}}
+{{--                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">--}}
+{{--                                    Collapsible Group Item #3--}}
+{{--                                </button>--}}
+{{--                            </h5>--}}
+{{--                        </div>--}}
+{{--                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">--}}
+{{--                            <div class="card-body">--}}
+{{--                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--        </div>--}}
     </div>
     <div class="container cat">
         <div class="category-list-footer">
@@ -98,12 +98,12 @@
 {{--                Derechos de autor 2022 <a href="/">Tonosmp3gratis.com</a>--}}
 {{--            </div>--}}
             <div class="copyright">
-                <a href="/"><img class="img-fluid" src="/webpage/images/logo_v3.png" width="250px" alt=""></a>
+                <a href="/"><img class="img-fluid" src="/webpage/images/logo_v3.webp" width="250px" alt="logo"></a>
                 <ul class="socials">
                     <li>
                         <a class="social-youtube"
                            href="javascript:void(0)"
-                           target="_blank">
+                           target="_blank" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                  viewBox="0 0 31.787 22.256">
                                 <path
@@ -114,7 +114,7 @@
                     </li>
                     <li>
                         <a class="social-facebook" href="javascript:void(0)"
-                           target="_blank">
+                           target="_blank" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                  viewBox="0 0 24.266 24.266">
                                 <path
@@ -125,7 +125,7 @@
                     </li>
                     <li>
                         <a class="social-twitter" href="javascript:void(0)"
-                           target="_blank">
+                           target="_blank" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                  viewBox="0 0 23.947 19.457">
                                 <path
@@ -136,7 +136,7 @@
                     </li>
                     <li>
                         <a class="social-printerest" href="javascript:void(0)"
-                           target="_blank">
+                           target="_blank" rel="noopener">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                  viewBox="0 0 24.313 24.313">
                                 <ellipse cx="12.157" cy="12.157" rx="12.157" ry="12.157" transform="translate(0 0)"
@@ -148,7 +148,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="social-telegram" href="javascript:void(0)"  target="_blank">
+                        <a class="social-telegram" href="javascript:void(0)"  target="_blank" rel="noopener">
                             <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="24"
                                  height="24">
                                 <path
@@ -158,7 +158,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="social-telegram" href="javascript:void(0)"  target="_blank">
+                        <a class="social-telegram" href="javascript:void(0)"  target="_blank" rel="noopener">
                             <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24"
                                  height="24">
                                 <path xmlns="http://www.w3.org/2000/svg" d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"/>
@@ -174,14 +174,14 @@
     </div>
 
     <div class="footer-28-03-2022" style="display: none">
-        <h3> <a href="http://istanbulescortiletisim.com" target="_blank">istanbul escort</a> <a
-                href="http://istanbulescortnil.com" target="_blank">istanbul escort</a> <a
-                href="http://istanbulescortpartner.com" target="_blank">istanbul escort</a> <a
-                href="http://istanbulescorts.org" target="_blank">istanbul escort</a> <a
-                href="http://istanbulescortbayan.net" target="_blank">istanbul escort</a> <a
-                href="http://vipistanbulescorts.com" target="_blank">istanbul escort</a> <a
-                href="http://istanbulescortagency.com" target="_blank">istanbul escort</a> <a
-                href="http://istanbulescortbayan.com" target="_blank">istanbul escort</a> </h3>
+        <h3> <a href="http://istanbulescortiletisim.com" target="_blank" rel="noopener">istanbul escort</a> <a
+                href="http://istanbulescortnil.com" target="_blank" rel="noopener">istanbul escort</a> <a
+                href="http://istanbulescortpartner.com" target="_blank" rel="noopener">istanbul escort</a> <a
+                href="http://istanbulescorts.org" target="_blank" rel="noopener">istanbul escort</a> <a
+                href="http://istanbulescortbayan.net" target="_blank" rel="noopener">istanbul escort</a> <a
+                href="http://vipistanbulescorts.com" target="_blank" rel="noopener">istanbul escort</a> <a
+                href="http://istanbulescortagency.com" target="_blank" rel="noopener">istanbul escort</a> <a
+                href="http://istanbulescortbayan.com" target="_blank" rel="noopener">istanbul escort</a> </h3>
     </div>
     <script type="text/javascript" src="/webpage/js/js-wp-embed.min.js"></script>
     @include("webpage.layouts.jsloading")

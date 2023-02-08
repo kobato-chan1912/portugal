@@ -137,11 +137,14 @@ Route::any('/ckfinder/browser', '\CKSource\CKFinderBridge\Controller\CKFinderCon
     | Webpage Routes
     |--------------------------------------------------------------------------
 */
+Route::get("/sitemap.xml", "SitemapController@index");
 
 Route::prefix("/")->group(function (){
    Route::get("/", "WebPageController@indexHome")->name("webPageIndex");
 //   Route::get("/newest", "WebPageController@newest");
-
+    Route::get("/page/{page}", function($page){
+        return redirect(env("WEBPAGE_URL"). "?page=". $page);
+    });
     Route::get("/melhores-toques", "WebPageCategoryController@losMejores")->name("lostMejores");
    Route::get("/novos-toques", "WebPageCategoryController@newestSongs")->name("newest");
    Route::get("/toques-populares", "WebPageCategoryController@popularSongs")->name("popularSongs");

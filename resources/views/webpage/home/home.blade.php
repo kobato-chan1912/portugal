@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 @include('webpage.layouts.head', [
-    'title' => env("WEB_NAME"). ' 2023 - Baixar para telefone',
+    'title' => env("WEB_NAME"). ' 2023 - Toques Baixar para telefone',
     'og_des' =>
         'Baixe novos e melhores toques gratuitamente para 2023. Muitas categorias de toques, como toques engraçados, toques de iPhone, toques de WhatsApp, Xiaomi...',
     'og_title' => 'Toques para celular grátis 2023 - Baixar para telefone',

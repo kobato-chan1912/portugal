@@ -29,16 +29,16 @@ class WebPageCategoryController extends Controller
         $songs = Song::orderBy("id", "desc")->where("display", 1)->paginate(14);
         return $this->loadView($songs,
             "Toques Novos",
-            "Toques Novos | Baixe mais toques gratuitos para celular",
-            "Baixe toques populares - A coleção de toques mais populares do mundo - Baixe 100% grátis para celulares em MP3 e M4R - ". env("WEB_NAME"));
+            "Baixar Toques Novos de graça no celular – ToquesDeCelular",
+            "Coleção dos toques mais recentes que você pode baixar totalmente grátis para o seu celular. Últimos toques para Android e iPhone em alta qualidade.");
     }
     public function popularSongs()
     {
         $songs = Song::orderBy("listeners", "desc")->where("display", 1)->paginate(14);
         return $this->loadView($songs,
             "Toques Populares",
-            "Toques Populares - ". env("WEB_NAME"),
-            "Os toques de celular mais populares são atualizados no site ". env("WEB_NAME")). " - Acesso para download gratuito para dispositivos Android e iOS";
+            "Baixar Toques Populares Mp3 Gratis - Top Top Ringtones",
+            "Coleção de toques populares mais baixados. Os melhores toques para celular que você não deve perder em ToquesDeCelular.Com");
     }
 
     public function categorySongs($slug){
@@ -80,8 +80,8 @@ class WebPageCategoryController extends Controller
         $songs  = Song::orderBy("downloads", "desc")->where("display", 1)->paginate(14);
         return $this->loadView($songs,
             "Melhores toques",
-            "Melhores toques - ". env("WEB_NAME"),
-            "Downloads 100% gratuitos - Muitos dos melhores toques são altamente avaliados pelos usuários do nosso site. Baixar nos formatos MP3 e M4R - ". env("WEB_NAME"));
+            "Baixar Melhores toques gratis - Best Ringtone Collection",
+            "Com a melhor coleção de ringtones atualizada todos os dias, você pode baixar seus ringtones favoritos totalmente grátis no ToquesDeCelular.Com");
     }
     public function search(Request $request, $search){
         $songs = Song::where('title', 'LIKE', "%$search%")->paginate(14);

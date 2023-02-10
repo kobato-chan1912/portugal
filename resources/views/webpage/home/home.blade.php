@@ -2,10 +2,10 @@
 <html lang="pt-br">
 
 @include('webpage.layouts.head', [
-    'title' => env("WEB_NAME"). ' 2023 - Toques Baixar para telefone',
+    'title' => "Baixar Toques Para Celular ".\Carbon\Carbon::now()->year." Grátis – ToquesDeCelular",
     'og_des' =>
-        'Baixe novos e melhores toques gratuitamente para 2023. Muitas categorias de toques, como toques engraçados, toques de iPhone, toques de WhatsApp, Xiaomi...',
-    'og_title' => 'Toques para celular grátis 2023 - Baixar para telefone',
+        'Sintetize sons e toques de alta qualidade para telefones móveis. Baixar Toques Para Celular Mp3 grátis com diversos gêneros para Android e iPhone.',
+    'og_title' => "Baixar Toques Para Celular ".\Carbon\Carbon::now()->year." Grátis – ToquesDeCelular",
 ])
 
 <body>

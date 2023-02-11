@@ -10,11 +10,11 @@
                                                 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd
                                                 http://www.w3.org/1999/xhtml
                                                 http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd">
-    @foreach($songs as $song)
+    @foreach($songs as $url)
         <url>
-            <loc>{{env("WEBPAGE_URL")}}/{{$song->slug}}</loc>
-            <lastmod>{{date('c', strtotime($song->created_at))}}</lastmod>
-            <xhtml:link rel="alternate" href="{{env("WEBPAGE_URL")}}/{{$song->slug}}"/>
+            <loc>{{env("WEBPAGE_URL")}}/{{$url->slug}}</loc>
+            <lastmod>{{date('c', strtotime($url->created_at))}}</lastmod>
+            <xhtml:link rel="alternate" href="{{env("WEBPAGE_URL")}}/{{$url->slug}}"/>
         </url>
     @endforeach
 </urlset>

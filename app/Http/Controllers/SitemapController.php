@@ -22,14 +22,14 @@ class SitemapController extends Controller
 
     public function postSitemap(): \Illuminate\Http\Response
     {
-        $urls = Song::all();
-        return response()->view('webpage.sitemap.urls', compact('urls'))
+        $songs = Song::all();
+        return response()->view('webpage.sitemap.post', compact('songs'))
             ->header('Content-Type', 'text/xml');
     }
     public function categorySitemap(): \Illuminate\Http\Response
     {
-        $urls = Category::all();
-        return response()->view('webpage.sitemap.urls', compact('urls'))
+        $categories = Category::all();
+        return response()->view('webpage.sitemap.category', compact('categories'))
             ->header('Content-Type', 'text/xml');
     }
 }

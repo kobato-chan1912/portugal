@@ -10,15 +10,16 @@
                                                 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd
                                                 http://www.w3.org/1999/xhtml
                                                 http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd">
-    <url>
-        <loc>{{env("WEBPAGE_URL")}}/post-sitemap.xml</loc>
-        <lastmod>{{date('c', strtotime($lastTimeCategory))}}</lastmod>
-        <xhtml:link rel="alternate" href="{{env("WEBPAGE_URL")}}/post-sitemap.xml"/>
-    </url>
-    <url>
-        <loc>{{env("WEBPAGE_URL")}}/category-sitemap.xml</loc>
-        <lastmod>{{date('c', strtotime($lastTimeSong))}}</lastmod>
-        <xhtml:link rel="alternate" href="{{env("WEBPAGE_URL")}}/post-sitemap.xml"/>
-    </url>
-
+    @foreach($urls as $url)
+        @if($url->slug == null)
+            @php $slug = $url->category_slug @endphp
+        @else
+            @php $slug = $url->slug @endphp
+        @endif
+        <url>
+            <loc>{{env("WEBPAGE_URL")}}/{{$slug}}</loc>
+            <lastmod>{{date('c', strtotime($url->created_at))}}</lastmod>
+            <xhtml:link rel="alternate" href="{{env("WEBPAGE_URL")}}/{{$slug}}"/>
+        </url>
+    @endforeach
 </urlset>

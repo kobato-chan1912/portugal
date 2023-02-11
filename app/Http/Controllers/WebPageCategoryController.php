@@ -50,8 +50,8 @@ class WebPageCategoryController extends Controller
         if ($category != null){ // has category
 
             $songs = Song::where("category_id", $category->id)->where("display", 1)->paginate(10);
-            $title = "Download Ringtone Nada Dering $category->category_name Gratis";
-            $metaDes = "Download Ringtone Nada Dering Telepon $category->category_name Gratis, Download Ringtone iPhone iphone, android mp3 m4r free ";
+            $title = "Baixar Toques Para Celular $category->category_name Grátis";
+            $metaDes = "Baixar Toques Para Celular $category->category_name Grátis, Download Ringtone iPhone iphone, android mp3 m4r free ";
             return $this->loadView($songs, $title, $title, $metaDes);
 
             // return view
